@@ -22,4 +22,3 @@ printf("Size a of float: %zu byte(s)\n", sizeof(floatType));
 return (0);
 
 }
-
