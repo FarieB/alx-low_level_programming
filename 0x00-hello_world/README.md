@@ -4,3 +4,4 @@ assembler
 compile
 write C
 printf
+data types size
