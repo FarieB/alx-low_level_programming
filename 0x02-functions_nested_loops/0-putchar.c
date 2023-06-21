@@ -4,19 +4,16 @@
  * main - entry point
  * Return: Always 0
  */
-
-int _putchar(void)
-
+int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+    char ch[] = "_putchar\n";
+    int h = 0;
 
+    while (ch[h] != '\0')
+    {
+        _putchar(ch[h]);
+        h++;
+    }
+
+    return 0;
 }
