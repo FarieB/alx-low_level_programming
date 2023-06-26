@@ -7,3 +7,4 @@ Write a function that reverses a string
 unction that prints every other character of a string
 function that prints half of a string, followed by a new line.
 function that prints n elements of an array of integers
+function that copies the string pointed
