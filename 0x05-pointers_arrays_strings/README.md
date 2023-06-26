@@ -5,3 +5,4 @@ function that prints a string, followed by a new line
 Write a function that prints a string, in reverse, followed by a new line.
 Write a function that reverses a string
 unction that prints every other character of a string
+function that prints half of a string, followed by a new line.
