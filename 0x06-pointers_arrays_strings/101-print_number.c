@@ -1,36 +1,22 @@
 #include "main.h"
 
 /**
- * print_number - prints integer numbers.
- * @n: number checked
- * Return: Always 0.
- */
+  * print_number - prints integer numbers
+  * @n: number used
+  * Return: Always 0
+  */
 
 void print_number(int n)
 
 {
-	int divider;
+	unsigned int digit = n;
 
 	if (n < 0)
 	{
 		_putchar('-');
-	n = -n;
-}
-
-	divider = 1;
-
-	while (n / divider >= 10)
-{
-	divider *= 10;
-}
-
-	while (divider > 0)
-{
-	int digit = n /divider;
-
-	_putchar('0' + digit);
-	n %= divider;
-	divider /= 10;
-}
-
+		digit = -digit;
+	}
+	if ((digit / 10) > 0)
+		print_number(digit / 10);
+	_putchar((digit % 10) + '0');
 }
