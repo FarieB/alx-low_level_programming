@@ -3,7 +3,7 @@
 /**
   *_chessboard - function that prints the chessboard
   *@a: pointer to the two dimention pieces to be printed
-  *Return: Always 0
+  *Return: void
   */
 
 void print_chessboard(char (*a)[8])
