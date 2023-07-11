@@ -6,8 +6,6 @@
   * *_strdup - unction that returns a pointer
   * to a newly allocated space in memory
   * @str: string
-  * @malloc: obtains memory of the new string
-  * @free: frees up memory
   * Return: NULL if str = NULL
   * pointer to the duplicated string on success
   */
