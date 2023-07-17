@@ -1,6 +1,5 @@
-#include "0-object_like_macro.h"
-#include "0-object_like_macro.h"
-#include <stdio.h>
+#ifndef MACRO_H
+#define MACRO_H
 
 /**
   * header file that defines a macro named SIZE 
