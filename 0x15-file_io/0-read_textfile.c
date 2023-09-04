@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,7 +28,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buffer = malloc(sizeof(char) * letters);
 	if (!buffer)
 	{
-		pclose(file_descriptor);
+		close(file_descriptor);
 		return (0);
 	}
 
