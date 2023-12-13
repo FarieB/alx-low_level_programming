@@ -1,66 +1,57 @@
 #include <stdio.h>
 
 /**
-* add - Adds two numbers
-* @a: First number
-* @b: Second number
-* Return: Sum of a and b
-*/
-int add(int a, int b)
+ * add - Adds two integers
+ * @num1: First integer
+ * @num2: Second integer
+ * Return: Addition result
+ */
+int add(int num1, int num2)
 {
-return a + b;
+    return (num1 + num2);
 }
 
 /**
-* sub - Subtracts two numbers
-* @a: First number
-* @b: Second number
-* Return: Difference of a and b
-*/
-int sub(int a, int b)
+ * sub - Subtracts two integers
+ * @num1: First integer
+ * @num2: Second integer
+ * Return: Subtraction result
+ */
+int sub(int num1, int num2)
 {
-return a - b;
+    return (num1 - num2);
 }
 
 /**
-* mul - Multiplies two numbers
-* @a: First number
-* @b: Second number
-* Return: Product of a and b
-*/
-int mul(int a, int b)
+ * mul - Multiplies two integers
+ * @num1: First integer
+ * @num2: Second integer
+ * Return: Multiplication result
+ */
+int mul(int num1, int num2)
 {
-return a * b;
+    return (num1 * num2);
 }
 
 /**
-* div - Divides two numbers
-* @a: First number
-* @b: Second number
-* Return: Result of a divided by b
-*/
-int div(int a, int b)
+ * div - Divides two integers
+ * @num1: Numerator
+ * @num2: Denominator
+ * Return: Division result
+ */
+int div(int num1, int num2)
 {
-if (b == 0)
-{
-printf("Error: Division by zero\n");
-return 0;
-}
-return a / b;
+    return (num1 / num2);
 }
 
 /**
-* mod - Computes the remainder of the division of two numbers
-* @a: First number
-* @b: Second number
-* Return: Remainder of the division of a by b
-*/
-int mod(int a, int b)
+ * mod - Computes the modulus of two integers
+ * @num1: Dividend
+ * @num2: Divisor
+ * Return: Modulus result
+ */
+int mod(int num1, int num2)
 {
-if (b == 0)
-{
-printf("Error: Division by zero\n");
-return 0;
+    return (num1 % num2);
 }
-return a % b;
-}
+
